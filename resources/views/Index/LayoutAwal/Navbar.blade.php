@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg main-navbar">
-    <a href="index.html" class="navbar-brand sidebar-gone-hide">KOPERASI IT DEL</a>
+    <a href="/" class="navbar-brand sidebar-gone-hide">KOPERASI IT DEL</a>
     <div class="navbar-nav">
         <a href="#" class="nav-link sidebar-gone-show" data-toggle="sidebar"><i class="fas fa-bars"></i></a>
     </div>
@@ -16,7 +16,6 @@
             <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i
                         class="fas fa-search"></i></a></li>
         </ul>
-
     </form>
     <ul class="navbar-nav navbar-right">
         @if (Route::has('login'))
